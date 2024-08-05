@@ -63,7 +63,6 @@ class DequeIterator:
         """Construct DequeIterator."""
         self.ring = deque.ring
         self.start = deque.start
-        self.end = (deque.end - 1) % deque.size
         self.size = deque.size
         self.count = 0
 
